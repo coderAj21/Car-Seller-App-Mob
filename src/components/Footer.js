@@ -18,7 +18,7 @@ const Footer=(props)=>{
     return (
         <div className="flex justify-between w-11/12  h-16 bg-blue-50 shadow-xl rounded-2xl mx-auto relative">
             <div className="mx-8 my-auto">
-                <p className="font-semibold text-gray-600 text-lg">{count} from {total}</p>
+                <p className="font-semibold text-gray-600 text-sm sm:text-lg">{count} from {total}</p>
             </div>
             <div className="flex mx-8 my-auto gap-6">
                 {
@@ -26,7 +26,7 @@ const Footer=(props)=>{
                     " onClick={changeHandlerLeft}><AiOutlineArrowLeft className="text-3xl" ></AiOutlineArrowLeft></button>
                     :(
                         count>1?
-                        <div className="flex gap-6">
+                        <div className="flex gap-x-2 sm:gap-6">
                         <button className="w-[80px] px-6 bg-white rounded-lg shadow-md hover:bg-blue-200" onClick={changeHandlerLeft}><AiOutlineArrowLeft className="text-3xl" ></AiOutlineArrowLeft></button>
                         <button className="w-[80px] px-6 bg-white rounded-lg shadow-md hover:bg-blue-200" onClick={changeHandlerRight}><AiOutlineArrowRight className="text-3xl" ></AiOutlineArrowRight></button>
                         </div>

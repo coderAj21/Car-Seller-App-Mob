@@ -20,21 +20,23 @@ const Header=(props)=>{
     }
     return (
         <div className="flex w-11/12  h-16 bg-blue-50 shadow-xl rounded-2xl mx-auto relative ">
-            <div className="flex mx-8 my-3">
+            <div className="flex flex-wrap mx-8 my-3">
                 <input placeholder="Search..."
-                className="pl-4 font-semibold text-gray-600 h-8 w-[300px] rounded-xl"
+                className="pl-4 font-semibold text-gray-600 h-8 w-12/12 rounded-xl"
                 onChange={changeHandler}                       
                         ></input>
-                <AiOutlineSearch className="my-1 text-2xl absolute left-[290px] hover:bg-blue-50"
+                <AiOutlineSearch className="my-1 text-2xl absolute left-[200px] hover:bg-blue-50"
                  onClick={clickHandler}></AiOutlineSearch>
             </div>
-            <div className="flex mx-6 my-3">
-                <label className="font-semibold text-gray-600 text-md">Relevane</label>
-                <BiChevronDown className="my-1"></BiChevronDown>
-            </div>
-            <div className="flex mx-6 my-3">
-                <label className="font-semibold text-gray-600 text-md">All Brands</label>
-                <BiChevronDown className="my-1"></BiChevronDown>
+            <div className="flex gap-x-8 flex-col sm:flex-row ">
+                <div className="flex my-1 sm:my-3">
+                    <label className="font-semibold text-gray-600 text-sm sm:text-lg">Relevane</label>
+                    <BiChevronDown className="my-1"></BiChevronDown>
+                </div>
+                <div className="flex sm:my-3">
+                    <label className="font-semibold text-gray-600 text-sm sm:text-lg">All Brands</label>
+                    <BiChevronDown className="my-1"></BiChevronDown>
+                </div>
             </div>
 
         </div>
