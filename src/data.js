@@ -50,7 +50,7 @@ const carData=[
     {
         id:5,
         Company:"Mercedes-Benz",
-        model:"",
+        model:"S Class",
         year:2022,
         seater:"4",
         fuel:"Hybrid",
@@ -194,7 +194,7 @@ const carData=[
     {
         id:5,
         Company:"Mercedes-Benz",
-        model:"",
+        model:"S Class",
         year:2022,
         seater:"4",
         fuel:"Hybrid",
@@ -338,7 +338,7 @@ const carData=[
     {
         id:5,
         Company:"Mercedes-Benz",
-        model:"",
+        model:"S Class",
         year:2022,
         seater:"4",
         fuel:"Hybrid",
@@ -482,7 +482,7 @@ const carData=[
     {
         id:5,
         Company:"Mercedes-Benz",
-        model:"",
+        model:"S Class",
         year:2022,
         seater:"4",
         fuel:"Hybrid",
@@ -626,7 +626,7 @@ const carData=[
     {
         id:5,
         Company:"Mercedes-Benz",
-        model:"",
+        model:"S Class",
         year:2022,
         seater:"4",
         fuel:"Hybrid",
